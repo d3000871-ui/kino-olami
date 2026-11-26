@@ -12,3 +12,5 @@
 .catalogHint{font-size:12px;color:var(--muted);margin:12px 0 18px}.extraDetails{margin-top:24px;padding:16px;border:1px solid #383b49;border-radius:12px}.extraDetails select{margin:8px 0}.adminPage #adminList li{display:flex;align-items:center;justify-content:space-between;gap:12px}.adminPage #adminSearch{display:block;width:100%;margin:12px 0}.adminPage #management{margin-top:16px}.filters select{max-width:100%}.filters{align-items:center}
 
 .playerFeedback{display:flex;align-items:center;flex-wrap:wrap;gap:10px;padding:12px;background:#11131b;color:var(--muted)}.playerFeedback span{font-size:13px;flex:1;min-width:100px}
+
+.officialPlayer{padding:18px;background:#11131b;display:grid;gap:12px}.officialPlayer iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:12px}.officialPlayer .primary{justify-self:start}.sourceLinks{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0}.sourceLinks a{font-size:13px}

@@ -46,3 +46,6 @@ Asosiy ekran endi video fayli mavjud kinolarni ko‘rsatadi. Barcha katalog aloh
 
 ## Havola orqali kino qo‘shish
 Admin panelda video fayli o‘rniga tarqatish huquqi bor HTTPS MP4 yoki WebM manzilini kiritish mumkin. Katalog yozuvi Blobda saqlanadi, video tashqi manbada qoladi va u o‘chirilsa ijro ishlamaydi. Doimiy video uchun faylni Blobga yuklang. Blender ochiq filmlari uchun rasmiy tomosha havolalari va zaxira video manbalari mavjud. TMDB katalogi token talab qiladi.
+
+## Badiiy filmlar
+Rasmiy UzbekFilmsHD/Uzbekkino va Mosfilm nashr havolalari, shuningdek Wikimedia Commons klassik filmlari qo‘shildi. YouTube filmlari rasmiy embed yoki asl sahifada ishlaydi, ulardan video ajratib olinmaydi. Tomosha imkoniyati hududga va nashriyot chekloviga bog‘liq. Badiiy va animatsiya filtrlari mavjud. Mahalliy yuklangan video ombori va TMDB tokeni alohida.
