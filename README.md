@@ -21,3 +21,6 @@ Big Buck Bunny, Sintel, Tears of Steel — Blender Foundation ochiq filmlari (CC
 npm install
 npm run build
 Vercel CLI orqali vercel dev (environment sozlangan bo‘lishi kerak). Vite dev faqat frontend uchun.
+
+## Kengaytirilgan katalog
+TMDB_READ_TOKEN bilan kino va seriallar, yil, janr, qidiruv, reyting va sahifalash ishlaydi. API bir so‘rov filtri uchun 500 sahifagacha; yil va janr bilan chuqurroq qidiring. TMDB tavsiflari video emas. 11 qo‘shimcha Blender ochiq filmi Wikimedia Commons orqali havolalangan; individual litsenziya va kredit Manba sahifasida. Tashqi videolar Blobga ko‘chirilmagan, shuning uchun manba mavjudligiga bog‘liq. Faqat o‘zingiz Blobga yuklagan filmlar omborda turadi.
