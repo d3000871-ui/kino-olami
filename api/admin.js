@@ -8,8 +8,9 @@ export default async function handler(req,res){
  if(b.action==='login')return res.json({ok:true});
  if(b.action==='add-link'){
   const meta=metadata(b.meta);const u=new URL(String(b.video||''));
-  if(u.protocol!=='https:'||u.username||u.password||! /\.(mp4|webm)$/i.test(u.pathname)||u.href.length>2000)throw Error('HTTPS MP4 yoki WebM video havolasi kerak');
-  const id=randomUUID(),movie={...meta,id,video:u.href,download:u.href,source:'library',createdAt:new Date().toISOString()};
+  let youtube='';if(u.protocol==='https:'&&!u.username&&!u.password){if(['youtube.com','www.youtube.com','m.youtube.com','www.youtube-nocookie.com'].includes(u.hostname))youtube=u.pathname==='/watch'?u.searchParams.get('v')||'':u.pathname.match(/^\/embed\/([A-Za-z0-9_-]{11})$/)?.[1]||'';if(u.hostname==='youtu.be')youtube=u.pathname.slice(1);}if(youtube&&!/^[A-Za-z0-9_-]{11}$/.test(youtube))throw Error('YouTube video ID noto‘g‘ri');
+  if(!youtube&&(u.protocol!=='https:'||u.username||u.password||! /\.(mp4|webm)$/i.test(u.pathname)||u.href.length>2000))throw Error('HTTPS MP4 yoki WebM video havolasi kerak');
+  const id=randomUUID(),movie={...meta,id,video:youtube?'':u.href,download:youtube?'':u.href,youtube,source:'library',createdAt:new Date().toISOString()};
   await put('catalog/'+id+'.json',JSON.stringify(movie),{access:'public',contentType:'application/json',addRandomSuffix:false,allowOverwrite:false,cacheControlMaxAge:60});return res.json({movie});
  }
  if(b.action!=='edit'||! /^[a-f0-9-]{36}$/i.test(String(b.id)))return res.status(400).json({error:'So‘rov noto‘g‘ri'});

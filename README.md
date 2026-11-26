@@ -49,3 +49,6 @@ Admin panelda video fayli o‘rniga tarqatish huquqi bor HTTPS MP4 yoki WebM man
 
 ## Badiiy filmlar
 Rasmiy UzbekFilmsHD/Uzbekkino va Mosfilm nashr havolalari, shuningdek Wikimedia Commons klassik filmlari qo‘shildi. YouTube filmlari rasmiy embed yoki asl sahifada ishlaydi, ulardan video ajratib olinmaydi. Tomosha imkoniyati hududga va nashriyot chekloviga bog‘liq. Badiiy va animatsiya filtrlari mavjud. Mahalliy yuklangan video ombori va TMDB tokeni alohida.
+
+## Sayt ichida tomosha qilish
+MP4/WebM va rasmiy YouTube embed pleyeri sayt ichida ochiladi; tashqi tomosha tugmalari olib tashlangan. Admin ruxsatli YouTube havolasini ham saqlashi mumkin. Agar nashriyot embedni bloklasa, xabar ko‘rsatiladi; bunday cheklov chetlab o‘tilmaydi. YouTube pleyerining o‘zidagi standart havolalar provayder boshqaruvida. Yuklab olish tugmasi mavjud ruxsatli video faylni oflayn omborga saqlaydi, YouTube uchun yuklab olish yo‘q.

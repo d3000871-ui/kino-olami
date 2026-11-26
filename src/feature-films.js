@@ -53,7 +53,7 @@ const rows=[
     "year": "1973",
     "genre": "Komediya",
     "language": "Ruscha",
-    "watchUrl": "https://mosfilm.ru/cinema/films/ivan-vasilevich-menyaet-professiyu/",
+    "youtube": "l7eIIIPBNUc",
     "description": "Vaqt mashinasi tufayli yuz bergan kulgili voqealar."
   },
   {
@@ -71,7 +71,7 @@ const rows=[
     "year": "1979",
     "genre": "Drama",
     "language": "Ruscha",
-    "watchUrl": "https://www.mosfilm.ru/cinema/films/moskva-slezam-ne-verit/",
+    "youtube": "NTWA_7-ld_U",
     "description": "Uch dugonaning hayot yo‘llari."
   },
   {
