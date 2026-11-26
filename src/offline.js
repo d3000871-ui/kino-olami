@@ -15,7 +15,7 @@ export async function saveMovie(m,{file,signal,onProgress=()=>{}}={}){
  if(file){type=file.type||(/\.webm$/i.test(file.name)?'video/webm':/\.mp4$/i.test(file.name)?'video/mp4':'');if(!/^video\/(mp4|webm)$/i.test(type))throw Error('MP4 yoki WebM fayl tanlang.');body=file.stream();size=file.size;}
  else{
   if(!m.video)throw Error('Bu kinoning video fayli mavjud emas.');
-  let r;try{r=await fetch(m.video,{signal,mode:'cors',credentials:'omit'});}catch(e){if(signal?.aborted)throw e;throw Error('Video manbasi brauzer orqali saqlashga ruxsat bermadi. Faylni yuklab olib, Oflayn kutubxonaga import qiling.');}
+  let r;for(const source of [m.video,...(m.alternates||[])]){try{const attempt=await fetch(source,{signal,mode:'cors',credentials:'omit'});if(attempt.status===200&&attempt.body&&/^(video\x2f|application\x2foctet-stream)/i.test(attempt.headers.get('content-type')||'')){r=attempt;break;}await attempt.body?.cancel();}catch(e){if(signal?.aborted)throw e;}}if(!r)throw Error('Video manbasi oflayn saqlashga ruxsat bermadi. Faylni qurilmaga yuklab olib import qiling.');
   if(r.status!==200||!r.body)throw Error('To‘liq video faylini olish imkoni bo‘lmadi.');
   type=(r.headers.get('content-type')||'').split(';')[0];if(!/^video\/(mp4|webm|x-m4v)$/i.test(type)&&type!=='application/octet-stream'){await r.body.cancel();throw Error('Manba video faylini qaytarmadi.');}
   if(type==='application/octet-stream')type=/\.webm(?:[?#]|$)/i.test(m.video)?'video/webm':'video/mp4';

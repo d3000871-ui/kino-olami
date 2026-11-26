@@ -40,3 +40,6 @@ Foydalanuvchi: `/`; admin: `/admin.html` (server ADMIN_PASSWORD orqali yuklashni
 
 ## Katta katalog (100 000+ yozuvlar maqsadi)
 TMDB_READ_TOKEN bilan kino/serial katalogi real vaqtda API orqali olinadi. Yil, janr, nom, reyting, yangilik va klassik filmlar filtrlari mavjud. Natija soni API javobidan olinadi; API bir filtrga 500 sahifa bilan cheklangan, yil va janrga ajratib qidirish mumkin. Uch tilda ma’lumotlar mavjud tarjimalardan olinadi, bo‘lmasa inglizcha manba ishlatiladi. Film tafsilotlari, aktyorlar, treyler va mavjud rasmiy tomosha manbalari qo‘shildi. TMDB film videolarini bermaydi. Faqat tarqatish huquqi bor haqiqiy dublyajlarni Blobga yuklash kerak. 100 000 video fayli yuklanmagan. Admin panelda parol tekshiruvi, qidiruv va metadata tahrirlash mavjud; video fayl o‘zgarmaydi. Foydalanuvchi profili mahalliy. 
+
+## Video pleyeri
+Asosiy ekran endi video fayli mavjud kinolarni ko‘rsatadi. Barcha katalog alohida. Blender ochiq filmlari uchun Blender video serveridagi MP4 va mavjud zaxira manbalar qo‘llanadi. Pleyer xato yuz bersa keyingi manbani sinaydi, qayta urinish va holat xabarini ko‘rsatadi. Manbalarning mavjudligi tashqi serverlarga bog‘liq. TMDB yozuvlari o‘zidan video bermaydi; o‘zbekcha/ruscha tarjima fayllari admin orqali yuklanishi kerak.
