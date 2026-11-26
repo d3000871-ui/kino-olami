@@ -1,0 +1,1 @@
+export function bindSearch(input,{onChange,onSubmit}){let timer;input.addEventListener('input',()=>{clearTimeout(timer);onChange(input.value.trim());timer=setTimeout(onSubmit,300);});input.addEventListener('keydown',e=>{if(e.key==='Enter'){clearTimeout(timer);onSubmit();}});}

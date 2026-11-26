@@ -33,3 +33,7 @@ TMDB o‘zbekcha tavsif mavjud bo‘lsa qaytaradi, aks holda inglizcha tavsif ol
 
 ## Uch tilda video tarjimalari
 Kino qo‘shish panelida bir film uchun bir xil tarjima guruhi kodidan foydalanib O‘zbekcha, Ruscha va Inglizcha video fayllarini alohida yuklang. Mavjud kinoning guruh kodini takliflar ro‘yxatidan tanlash mumkin. Katalogda guruh birlashtiriladi; pleyer mavjud ovoz variantlarini ko‘rsatadi. Har bir variant o‘z fayli bilan alohida oflayn saqlanadi. Tomoshabin uch tilda shaxsiy SRT/VTT subtitr qo‘sha oladi. Sayt audio tarjima/dublyajni avtomatik yaratmaydi; TMDB original tilni beradi, video taqdim etmaydi. Tarjima videolarini tarqatish huquqi bo‘lishi shart.
+
+## Android APK va alohida bo‘limlar
+GitHub Actions → Android APK → Run workflow. Build muvaffaqiyatli tugasa Artifacts → Kino-Olami-APK ZIP ichidan app-debug.apk ni oling. Debug APK sinov uchun, Play Store uchun release signing va AAB kerak. Birinchi ochishda Vercel loyihangizning aniq HTTPS domenini kiriting. Android WebView saytni shu domen orqali ochadi; oflayn uchun avval sayt yuklanishi va service worker ishlashi kerak. Ilova ma’lumotlari o‘chirilsa oflayn video yo‘qolishi mumkin. Android 8+.
+Foydalanuvchi: `/`; admin: `/admin.html` (server ADMIN_PASSWORD orqali yuklashni himoyalaydi, sahifaning o‘zi ochiq). `src/admin.js`, `src/user.js`, `src/search.js` alohida. Profil mahalliy, serverda ro‘yxatdan o‘tish yo‘q. Vercel build va Android build alohida.
