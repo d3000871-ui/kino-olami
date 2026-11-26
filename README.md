@@ -43,3 +43,6 @@ TMDB_READ_TOKEN bilan kino/serial katalogi real vaqtda API orqali olinadi. Yil, 
 
 ## Video pleyeri
 Asosiy ekran endi video fayli mavjud kinolarni ko‘rsatadi. Barcha katalog alohida. Blender ochiq filmlari uchun Blender video serveridagi MP4 va mavjud zaxira manbalar qo‘llanadi. Pleyer xato yuz bersa keyingi manbani sinaydi, qayta urinish va holat xabarini ko‘rsatadi. Manbalarning mavjudligi tashqi serverlarga bog‘liq. TMDB yozuvlari o‘zidan video bermaydi; o‘zbekcha/ruscha tarjima fayllari admin orqali yuklanishi kerak.
+
+## Havola orqali kino qo‘shish
+Admin panelda video fayli o‘rniga tarqatish huquqi bor HTTPS MP4 yoki WebM manzilini kiritish mumkin. Katalog yozuvi Blobda saqlanadi, video tashqi manbada qoladi va u o‘chirilsa ijro ishlamaydi. Doimiy video uchun faylni Blobga yuklang. Blender ochiq filmlari uchun rasmiy tomosha havolalari va zaxira video manbalari mavjud. TMDB katalogi token talab qiladi.

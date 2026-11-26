@@ -3,4 +3,8 @@ const openMovies=[["caminandes","Caminandes: Gran Dillama","2013","Komediya","Ca
  const name=encodeURIComponent(file.replaceAll(' ','_'));
  return {id:'open-'+id,title,year,genre,description,language:'Asl til',video:'https://commons.wikimedia.org/wiki/Special:FilePath/'+name,download:'https://commons.wikimedia.org/wiki/Special:FilePath/'+name,info:'https://commons.wikimedia.org/wiki/File:'+name,source:'open',rating:null,credit:'© Blender Foundation — litsenziya va mualliflar manba sahifasida'};
 });
+openMovies.push(...[
+ ['agent327','Agent 327: Operation Barbershop','2017','Jangari','264ff760-803e-430e-8d81-15648e904183','Maxfiy agentning sarguzashti.','https://studio.blender.org/films/agent-327/','Inglizcha'],
+ ['llamigos','Caminandes: Llamigos','2016','Multfilm','23f3ef79-15dc-44c5-aa45-cf92e78a4509','Patagoniyadagi lama sarguzashti.','https://studio.blender.org/films/caminandes-3/','So‘zsiz']
+].map(([id,title,year,genre,uuid,description,info,language])=>({id:'open-'+id,title,year,genre,description,info,language,video:'https://video.blender.org/static/webseed/'+uuid+'-720.mp4',source:'open',rating:null,credit:'© Blender Foundation — manba sahifasida litsenziya.'})));
 export default openMovies;

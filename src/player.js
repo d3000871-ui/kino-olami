@@ -9,6 +9,6 @@ export function wirePlayer(video,sources,{play,retry,status}){
  video.addEventListener('canplay',()=>{failed=false;retry.hidden=true;note('Video tayyor');});
  video.addEventListener('playing',()=>{note('');play.hidden=true;});
  video.addEventListener('pause',()=>{play.hidden=false;});
- play.onclick=attempt;retry.onclick=()=>{wantsPlay=true;if(sources.length)start(0);else{failed=false;retry.hidden=true;video.load();attempt();}};
+ play.onclick=attempt;retry.onclick=()=>{wantsPlay=true;if(sources.length){wantsPlay=true;start(0);}else{failed=false;retry.hidden=true;video.load();attempt();}};
  if(sources.length)start(0);
 }
