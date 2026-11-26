@@ -64,3 +64,6 @@ Boshlang‘ich HTMLda 77 ta katalog kartochkasi bor; JS yoki API ishlamasa ham k
 
 ## 10 000+ film arxivi
 Build jarayonida CC0 Wikidata/Bokeh 2026-10-18 snapshotidan SHA-256 tekshiruvi bilan 17 472 yozuvli tarixiy (1940–2014) katalog import qilinadi. Import 10 000 dan kam yozuv bo‘lsa buildni to‘xtatadi. Manba: https://github.com/bokeh/bokeh_sampledata/blob/d15511fb06b9bad0278af177bbcb82648764334c/src/bokeh_sampledata/movies_data.py . Katalog nom, yil, janr, rejissyor, aktyorlar va Rotten Tomatoes bahosini mavjud bo‘lsa ko‘rsatadi. Har sahifada 60 ta kartochka ochiladi, qidiruv barcha yuklangan yozuvlar bo‘yicha. IMDb, rasmiy tomosha manbasini qidirish va alohida film sahifasi havolasini nusxalash qo‘shildi. Tashqi qidiruv to‘liq videoning mavjudligini kafolatlamaydi; tarjima va litsenziyali videolar alohida. Ochiq datasetdagi eski film yozuvlarining hammasida poster yo‘q.
+
+## Sahifalar va posterlar
+Vercel production catalog-data.json tekshirildi: 17 472 yozuv mavjud. Bosh katalog 120 kartochkali raqamli sahifalarga ajratildi, oldingi/keyingi va istalgan sahifaga o‘tish yuqorida ham pastda ham mavjud. Zamonaviy katalogdagi 54 ta poster TMDB CDN manziliga o‘zgartirildi; MetaHub zaxira bo‘lib qoladi. Tashqi tasvirlarning barchasi mavjudligi kafolatlanmaydi.
