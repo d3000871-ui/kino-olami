@@ -5,7 +5,8 @@ export default async function handler(req,res){
  if(!token)return res.status(200).json({movies:[],configured:false,totalPages:0,totalResults:0});
  const q=String(req.query?.q||'').trim().slice(0,100),media=req.query?.media==='tv'?'tv':'movie',genre=String(req.query?.genre||''),year=String(req.query?.year||''),sort=req.query?.sort;
  const page=Math.max(1,Math.min(500,parseInt(req.query?.page,10)||1));
- const params=new URLSearchParams({language:'en-US',include_adult:'false',page:String(page)});
+ const params=new URLSearchParams({language:'uz-UZ',include_adult:'false',page:String(page)});
+ if(!q&&req.query?.audio==='uz')params.set('with_original_language','uz');
  const validYear=/^\d{4}$/.test(year);
  if(q){params.set('query',q);if(validYear)params.set(media==='movie'?'primary_release_year':'first_air_date_year',year);}
  else{
@@ -19,7 +20,10 @@ export default async function handler(req,res){
  const r=await fetch('https://api.themoviedb.org/3/'+(q?'search/':'discover/')+media+'?'+params,{headers:{Authorization:'Bearer '+token,accept:'application/json'},signal:AbortSignal.timeout(8000)});
  if(!r.ok)throw Error('TMDB');
  const data=await r.json();
- const movies=(data.results||[]).filter(x=>!x.adult).map(x=>({id:'tmdb-'+(media==='tv'?'tv-':'')+x.id,media,title:x.title||x.name,year:(x.release_date||x.first_air_date||'').slice(0,4),genre:genres[x.genre_ids?.[0]]||'Boshqa',genres:[...new Set((x.genre_ids||[]).map(id=>genres[id]).filter(Boolean))],rating:x.vote_count?x.vote_average:null,description:x.overview,poster:x.poster_path?'https://image.tmdb.org/t/p/w500'+x.poster_path:'',source:'tmdb',info:'https://www.themoviedb.org/'+media+'/'+x.id,language:x.original_language}));
+ const fallbackParams=new URLSearchParams(params);fallbackParams.set('language','en-US');
+ let fallback=[];try{const f=await fetch('https://api.themoviedb.org/3/'+(q?'search/':'discover/')+media+'?'+fallbackParams,{headers:{Authorization:'Bearer '+token,accept:'application/json'},signal:AbortSignal.timeout(4000)});if(f.ok)fallback=(await f.json()).results||[];}catch{}
+ const byId=new Map(fallback.map(x=>[x.id,x]));
+ const movies=(data.results||[]).filter(x=>!x.adult).map(x=>({id:'tmdb-'+(media==='tv'?'tv-':'')+x.id,media,title:x.title||x.name,year:(x.release_date||x.first_air_date||'').slice(0,4),genre:genres[x.genre_ids?.[0]]||'Boshqa',genres:[...new Set((x.genre_ids||[]).map(id=>genres[id]).filter(Boolean))],rating:x.vote_count?x.vote_average:null,description:x.overview||byId.get(x.id)?.overview||'',poster:x.poster_path?'https://image.tmdb.org/t/p/w500'+x.poster_path:'',source:'tmdb',info:'https://www.themoviedb.org/'+media+'/'+x.id,language:x.original_language}));
  res.setHeader('Cache-Control','s-maxage=120, stale-while-revalidate=300');
  return res.status(200).json({movies,configured:true,totalPages:Math.min(500,data.total_pages||0),totalResults:data.total_results||0,page});
  }catch{return res.status(502).json({error:'TMDB vaqtincha mavjud emas'});}

@@ -27,3 +27,6 @@ TMDB_READ_TOKEN bilan kino va seriallar, yil, janr, qidiruv, reyting va sahifala
 
 ## Oflayn tomosha (PWA)
 Vercel HTTPS saytiga birinchi marta internet bilan kiring. Ochiq/ruxsatli videoni ochib Oflayn saqlashni bosing; yakunlanganidan keyin Oflayn bo‘limidan internetsiz oching. Ilova shell service worker orqali, video Cache Storage orqali alohida saqlanadi; redeploy media keshini o‘chirmaydi. Tashqi video CORS ruxsat bermasa, faylni qonuniy yuklab olib Oflayn bo‘limida MP4/WebM import qiling. Brauzer doimiy xotira ruxsatini so‘raydi, lekin rad etilishi mumkin; brauzer ma’lumotlari o‘chirilsa, joy yetishmasa yoki boshqa qurilmada oflayn nusxalar mavjud bo‘lmasligi mumkin. Asl faylni alohida zaxiralang. iOS/Android/desktop brauzerlarida kodek va kvota farqlanadi. Internet yo‘q bo‘lsa yangi video yuklab bo‘lmaydi. 
+
+## O‘zbekcha tarjima
+TMDB o‘zbekcha tavsif mavjud bo‘lsa qaytaradi, aks holda inglizcha tavsif olinadi. O‘zbekcha ovoz filtri haqiqiy audio tili metama’lumotiga asoslanadi; avtomatik dublyaj yo‘q. Admin qisqa SRT/VTT subtitr (12 KB gacha) qo‘sha oladi; tomoshabin 500 KB gacha subtitrni o‘z brauzerida qo‘sha oladi, oflayn ham ishlaydi. Subtitr va dublyaj uchun tarqatish huquqi kerak.

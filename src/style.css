@@ -2,3 +2,5 @@
 .pagination{display:flex;flex-direction:column;align-items:center;gap:10px;margin:28px 0;color:var(--muted)}[hidden]{display:none!important}.filters{flex-wrap:wrap;justify-content:flex-end}.credit{font-size:12px}.pagination button{min-width:180px}@media(max-width:550px){.filters{justify-content:flex-start}.filters select{flex:1 1 42%;max-width:48%}}
 
 #offlineTools{padding:16px;background:#171923;border:1px solid #30323f;border-radius:12px;margin-bottom:18px}#offlineTools p{color:var(--muted);margin:6px 0 12px}.importLabel{position:relative;overflow:hidden;cursor:pointer}.importLabel input{position:absolute;inset:0;opacity:0;width:100%;cursor:pointer}#offlineProgress,#localProgress{margin:8px 0}#localStatus{overflow-wrap:anywhere}#cancelOffline,#cancelLocal{margin-top:8px}
+
+.subtitleTools{margin:20px 0;padding:14px;border:1px solid #383b49;border-radius:10px}.subtitleTools p{font-size:13px;margin:8px 0}video::cue{color:white;background:#000b;font-size:1em}
