@@ -1,4 +1,4 @@
-// Curated metadata, not commercial video files.
+// Curated movie metadata; poster URLs from TMDB or MetaHub. No commercial video files.
 export default [
   {
     "id": "tmdb-24428",
@@ -17,7 +17,9 @@ export default [
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
     "poster": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
-    "info": "https://www.themoviedb.org/movie/24428"
+    "info": "https://www.themoviedb.org/movie/24428",
+    "imdbId": "tt0848228",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt0848228/img"
   },
   {
     "id": "tmdb-99861",
@@ -36,7 +38,9 @@ export default [
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
     "poster": "https://image.tmdb.org/t/p/w500/4ssDuvEDkSArWEdyBl2X5EHvYKU.jpg",
-    "info": "https://www.themoviedb.org/movie/99861"
+    "info": "https://www.themoviedb.org/movie/99861",
+    "imdbId": "tt2395427",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt2395427/img"
   },
   {
     "id": "tmdb-299536",
@@ -55,7 +59,9 @@ export default [
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
     "poster": "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
-    "info": "https://www.themoviedb.org/movie/299536"
+    "info": "https://www.themoviedb.org/movie/299536",
+    "imdbId": "tt4154756",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt4154756/img"
   },
   {
     "id": "tmdb-299534",
@@ -74,7 +80,9 @@ export default [
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
     "poster": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
-    "info": "https://www.themoviedb.org/movie/299534"
+    "info": "https://www.themoviedb.org/movie/299534",
+    "imdbId": "tt4154796",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt4154796/img"
   },
   {
     "id": "tmdb-1003596",
@@ -92,8 +100,10 @@ export default [
     "trailer": "fxNh27fRdYA",
     "upcoming": true,
     "description": "2026-yil dekabrida kinoteatrga chiqishi rejalashtirilgan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/1003596"
+    "poster": "https://images.metahub.space/poster/medium/tt21357150/img",
+    "info": "https://www.themoviedb.org/movie/1003596",
+    "imdbId": "tt21357150",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt21357150/img"
   },
   {
     "id": "tmdb-1726",
@@ -111,8 +121,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/1726"
+    "poster": "https://images.metahub.space/poster/medium/tt0371746/img",
+    "info": "https://www.themoviedb.org/movie/1726",
+    "imdbId": "tt0371746",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt0371746/img"
   },
   {
     "id": "tmdb-10138",
@@ -130,8 +142,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/10138"
+    "poster": "https://images.metahub.space/poster/medium/tt1228705/img",
+    "info": "https://www.themoviedb.org/movie/10138",
+    "imdbId": "tt1228705",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt1228705/img"
   },
   {
     "id": "tmdb-68721",
@@ -149,8 +163,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/68721"
+    "poster": "https://images.metahub.space/poster/medium/tt1300854/img",
+    "info": "https://www.themoviedb.org/movie/68721",
+    "imdbId": "tt1300854",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt1300854/img"
   },
   {
     "id": "tmdb-10195",
@@ -168,8 +184,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/10195"
+    "poster": "https://images.metahub.space/poster/medium/tt0800369/img",
+    "info": "https://www.themoviedb.org/movie/10195",
+    "imdbId": "tt0800369",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt0800369/img"
   },
   {
     "id": "tmdb-76338",
@@ -187,8 +205,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/76338"
+    "poster": "https://images.metahub.space/poster/medium/tt1981115/img",
+    "info": "https://www.themoviedb.org/movie/76338",
+    "imdbId": "tt1981115",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt1981115/img"
   },
   {
     "id": "tmdb-284053",
@@ -206,8 +226,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/284053"
+    "poster": "https://images.metahub.space/poster/medium/tt3501632/img",
+    "info": "https://www.themoviedb.org/movie/284053",
+    "imdbId": "tt3501632",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt3501632/img"
   },
   {
     "id": "tmdb-616037",
@@ -225,8 +247,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/616037"
+    "poster": "https://images.metahub.space/poster/medium/tt10648342/img",
+    "info": "https://www.themoviedb.org/movie/616037",
+    "imdbId": "tt10648342",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt10648342/img"
   },
   {
     "id": "tmdb-1771",
@@ -244,8 +268,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/1771"
+    "poster": "https://images.metahub.space/poster/medium/tt0458339/img",
+    "info": "https://www.themoviedb.org/movie/1771",
+    "imdbId": "tt0458339",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt0458339/img"
   },
   {
     "id": "tmdb-100402",
@@ -263,8 +289,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/100402"
+    "poster": "https://images.metahub.space/poster/medium/tt1843866/img",
+    "info": "https://www.themoviedb.org/movie/100402",
+    "imdbId": "tt1843866",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt1843866/img"
   },
   {
     "id": "tmdb-271110",
@@ -282,8 +310,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/271110"
+    "poster": "https://images.metahub.space/poster/medium/tt3498820/img",
+    "info": "https://www.themoviedb.org/movie/271110",
+    "imdbId": "tt3498820",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt3498820/img"
   },
   {
     "id": "tmdb-822119",
@@ -301,8 +331,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/822119"
+    "poster": "https://images.metahub.space/poster/medium/tt14513804/img",
+    "info": "https://www.themoviedb.org/movie/822119",
+    "imdbId": "tt14513804",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt14513804/img"
   },
   {
     "id": "tmdb-118340",
@@ -320,8 +352,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/118340"
+    "poster": "https://images.metahub.space/poster/medium/tt2015381/img",
+    "info": "https://www.themoviedb.org/movie/118340",
+    "imdbId": "tt2015381",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt2015381/img"
   },
   {
     "id": "tmdb-283995",
@@ -339,8 +373,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/283995"
+    "poster": "https://images.metahub.space/poster/medium/tt3896198/img",
+    "info": "https://www.themoviedb.org/movie/283995",
+    "imdbId": "tt3896198",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt3896198/img"
   },
   {
     "id": "tmdb-447365",
@@ -358,8 +394,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/447365"
+    "poster": "https://images.metahub.space/poster/medium/tt6791350/img",
+    "info": "https://www.themoviedb.org/movie/447365",
+    "imdbId": "tt6791350",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt6791350/img"
   },
   {
     "id": "tmdb-284052",
@@ -377,8 +415,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/284052"
+    "poster": "https://images.metahub.space/poster/medium/tt1211837/img",
+    "info": "https://www.themoviedb.org/movie/284052",
+    "imdbId": "tt1211837",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt1211837/img"
   },
   {
     "id": "tmdb-453395",
@@ -396,8 +436,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/453395"
+    "poster": "https://images.metahub.space/poster/medium/tt9419884/img",
+    "info": "https://www.themoviedb.org/movie/453395",
+    "imdbId": "tt9419884",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt9419884/img"
   },
   {
     "id": "tmdb-315635",
@@ -415,8 +457,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/315635"
+    "poster": "https://images.metahub.space/poster/medium/tt2250912/img",
+    "info": "https://www.themoviedb.org/movie/315635",
+    "imdbId": "tt2250912",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt2250912/img"
   },
   {
     "id": "tmdb-429617",
@@ -434,8 +478,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/429617"
+    "poster": "https://images.metahub.space/poster/medium/tt6320628/img",
+    "info": "https://www.themoviedb.org/movie/429617",
+    "imdbId": "tt6320628",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt6320628/img"
   },
   {
     "id": "tmdb-634649",
@@ -453,8 +499,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/634649"
+    "poster": "https://images.metahub.space/poster/medium/tt10872600/img",
+    "info": "https://www.themoviedb.org/movie/634649",
+    "imdbId": "tt10872600",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt10872600/img"
   },
   {
     "id": "tmdb-284054",
@@ -472,8 +520,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/284054"
+    "poster": "https://images.metahub.space/poster/medium/tt1825683/img",
+    "info": "https://www.themoviedb.org/movie/284054",
+    "imdbId": "tt1825683",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt1825683/img"
   },
   {
     "id": "tmdb-505642",
@@ -491,8 +541,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/505642"
+    "poster": "https://images.metahub.space/poster/medium/tt9114286/img",
+    "info": "https://www.themoviedb.org/movie/505642",
+    "imdbId": "tt9114286",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt9114286/img"
   },
   {
     "id": "tmdb-102899",
@@ -510,8 +562,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/102899"
+    "poster": "https://images.metahub.space/poster/medium/tt0478970/img",
+    "info": "https://www.themoviedb.org/movie/102899",
+    "imdbId": "tt0478970",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt0478970/img"
   },
   {
     "id": "tmdb-363088",
@@ -529,8 +583,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/363088"
+    "poster": "https://images.metahub.space/poster/medium/tt5095030/img",
+    "info": "https://www.themoviedb.org/movie/363088",
+    "imdbId": "tt5095030",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt5095030/img"
   },
   {
     "id": "tmdb-640146",
@@ -548,8 +604,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/640146"
+    "poster": "https://images.metahub.space/poster/medium/tt10954600/img",
+    "info": "https://www.themoviedb.org/movie/640146",
+    "imdbId": "tt10954600",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt10954600/img"
   },
   {
     "id": "tmdb-299537",
@@ -567,8 +625,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/299537"
+    "poster": "https://images.metahub.space/poster/medium/tt4154664/img",
+    "info": "https://www.themoviedb.org/movie/299537",
+    "imdbId": "tt4154664",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt4154664/img"
   },
   {
     "id": "tmdb-497698",
@@ -586,8 +646,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/497698"
+    "poster": "https://images.metahub.space/poster/medium/tt3480822/img",
+    "info": "https://www.themoviedb.org/movie/497698",
+    "imdbId": "tt3480822",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt3480822/img"
   },
   {
     "id": "tmdb-566525",
@@ -605,8 +667,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/566525"
+    "poster": "https://images.metahub.space/poster/medium/tt9376612/img",
+    "info": "https://www.themoviedb.org/movie/566525",
+    "imdbId": "tt9376612",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt9376612/img"
   },
   {
     "id": "tmdb-524434",
@@ -624,8 +688,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/524434"
+    "poster": "https://images.metahub.space/poster/medium/tt9032400/img",
+    "info": "https://www.themoviedb.org/movie/524434",
+    "imdbId": "tt9032400",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt9032400/img"
   },
   {
     "id": "tmdb-609681",
@@ -643,8 +709,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/609681"
+    "poster": "https://images.metahub.space/poster/medium/tt10676048/img",
+    "info": "https://www.themoviedb.org/movie/609681",
+    "imdbId": "tt10676048",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt10676048/img"
   },
   {
     "id": "tmdb-533535",
@@ -662,8 +730,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/533535"
+    "poster": "https://images.metahub.space/poster/medium/tt6263850/img",
+    "info": "https://www.themoviedb.org/movie/533535",
+    "imdbId": "tt6263850",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt6263850/img"
   },
   {
     "id": "tmdb-986056",
@@ -681,8 +751,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/986056"
+    "poster": "https://images.metahub.space/poster/medium/tt20969586/img",
+    "info": "https://www.themoviedb.org/movie/986056",
+    "imdbId": "tt20969586",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt20969586/img"
   },
   {
     "id": "tmdb-617126",
@@ -700,8 +772,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/617126"
+    "poster": "https://images.metahub.space/poster/medium/tt10676052/img",
+    "info": "https://www.themoviedb.org/movie/617126",
+    "imdbId": "tt10676052",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt10676052/img"
   },
   {
     "id": "tmdb-19995",
@@ -720,7 +794,9 @@ export default [
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
     "poster": "https://image.tmdb.org/t/p/w500/kyeqWdyUXW608qlYkRqosgbbJyK.jpg",
-    "info": "https://www.themoviedb.org/movie/19995"
+    "info": "https://www.themoviedb.org/movie/19995",
+    "imdbId": "tt0499549",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt0499549/img"
   },
   {
     "id": "tmdb-76600",
@@ -738,8 +814,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/76600"
+    "poster": "https://images.metahub.space/poster/medium/tt1630029/img",
+    "info": "https://www.themoviedb.org/movie/76600",
+    "imdbId": "tt1630029",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt1630029/img"
   },
   {
     "id": "tmdb-83533",
@@ -757,8 +835,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/83533"
+    "poster": "https://images.metahub.space/poster/medium/tt1757678/img",
+    "info": "https://www.themoviedb.org/movie/83533",
+    "imdbId": "tt1757678",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt1757678/img"
   },
   {
     "id": "tmdb-157336",
@@ -777,7 +857,9 @@ export default [
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
     "poster": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
-    "info": "https://www.themoviedb.org/movie/157336"
+    "info": "https://www.themoviedb.org/movie/157336",
+    "imdbId": "tt0816692",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt0816692/img"
   },
   {
     "id": "tmdb-27205",
@@ -795,8 +877,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/27205"
+    "poster": "https://images.metahub.space/poster/medium/tt1375666/img",
+    "info": "https://www.themoviedb.org/movie/27205",
+    "imdbId": "tt1375666",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt1375666/img"
   },
   {
     "id": "tmdb-438631",
@@ -814,8 +898,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/438631"
+    "poster": "https://images.metahub.space/poster/medium/tt1160419/img",
+    "info": "https://www.themoviedb.org/movie/438631",
+    "imdbId": "tt1160419",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt1160419/img"
   },
   {
     "id": "tmdb-693134",
@@ -833,8 +919,10 @@ export default [
     "trailer": "Way9Dexny3w",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/693134"
+    "poster": "https://images.metahub.space/poster/medium/tt15239678/img",
+    "info": "https://www.themoviedb.org/movie/693134",
+    "imdbId": "tt15239678",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt15239678/img"
   },
   {
     "id": "tmdb-286217",
@@ -852,8 +940,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/286217"
+    "poster": "https://images.metahub.space/poster/medium/tt3659388/img",
+    "info": "https://www.themoviedb.org/movie/286217",
+    "imdbId": "tt3659388",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt3659388/img"
   },
   {
     "id": "tmdb-329865",
@@ -871,8 +961,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/329865"
+    "poster": "https://images.metahub.space/poster/medium/tt2543164/img",
+    "info": "https://www.themoviedb.org/movie/329865",
+    "imdbId": "tt2543164",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt2543164/img"
   },
   {
     "id": "tmdb-335984",
@@ -890,8 +982,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/335984"
+    "poster": "https://images.metahub.space/poster/medium/tt1856101/img",
+    "info": "https://www.themoviedb.org/movie/335984",
+    "imdbId": "tt1856101",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt1856101/img"
   },
   {
     "id": "tmdb-76341",
@@ -909,8 +1003,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/76341"
+    "poster": "https://images.metahub.space/poster/medium/tt1392190/img",
+    "info": "https://www.themoviedb.org/movie/76341",
+    "imdbId": "tt1392190",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt1392190/img"
   },
   {
     "id": "tmdb-786892",
@@ -928,8 +1024,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/786892"
+    "poster": "https://images.metahub.space/poster/medium/tt12037194/img",
+    "info": "https://www.themoviedb.org/movie/786892",
+    "imdbId": "tt12037194",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt12037194/img"
   },
   {
     "id": "tmdb-424783",
@@ -947,8 +1045,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/424783"
+    "poster": "https://images.metahub.space/poster/medium/tt4701182/img",
+    "info": "https://www.themoviedb.org/movie/424783",
+    "imdbId": "tt4701182",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt4701182/img"
   },
   {
     "id": "tmdb-667538",
@@ -966,8 +1066,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/667538"
+    "poster": "https://images.metahub.space/poster/medium/tt5090568/img",
+    "info": "https://www.themoviedb.org/movie/667538",
+    "imdbId": "tt5090568",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt5090568/img"
   },
   {
     "id": "tmdb-245891",
@@ -985,8 +1087,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/245891"
+    "poster": "https://images.metahub.space/poster/medium/tt2911666/img",
+    "info": "https://www.themoviedb.org/movie/245891",
+    "imdbId": "tt2911666",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt2911666/img"
   },
   {
     "id": "tmdb-324552",
@@ -1004,8 +1108,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/324552"
+    "poster": "https://images.metahub.space/poster/medium/tt4425200/img",
+    "info": "https://www.themoviedb.org/movie/324552",
+    "imdbId": "tt4425200",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt4425200/img"
   },
   {
     "id": "tmdb-458156",
@@ -1023,8 +1129,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/458156"
+    "poster": "https://images.metahub.space/poster/medium/tt6146586/img",
+    "info": "https://www.themoviedb.org/movie/458156",
+    "imdbId": "tt6146586",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt6146586/img"
   },
   {
     "id": "tmdb-603692",
@@ -1042,8 +1150,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/603692"
+    "poster": "https://images.metahub.space/poster/medium/tt10366206/img",
+    "info": "https://www.themoviedb.org/movie/603692",
+    "imdbId": "tt10366206",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt10366206/img"
   },
   {
     "id": "tmdb-361743",
@@ -1061,8 +1171,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/361743"
+    "poster": "https://images.metahub.space/poster/medium/tt1745960/img",
+    "info": "https://www.themoviedb.org/movie/361743",
+    "imdbId": "tt1745960",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt1745960/img"
   },
   {
     "id": "tmdb-575264",
@@ -1080,8 +1192,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/575264"
+    "poster": "https://images.metahub.space/poster/medium/tt9603212/img",
+    "info": "https://www.themoviedb.org/movie/575264",
+    "imdbId": "tt9603212",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt9603212/img"
   },
   {
     "id": "tmdb-414906",
@@ -1099,8 +1213,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/414906"
+    "poster": "https://images.metahub.space/poster/medium/tt1877830/img",
+    "info": "https://www.themoviedb.org/movie/414906",
+    "imdbId": "tt1877830",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt1877830/img"
   },
   {
     "id": "tmdb-155",
@@ -1118,8 +1234,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/155"
+    "poster": "https://images.metahub.space/poster/medium/tt0468569/img",
+    "info": "https://www.themoviedb.org/movie/155",
+    "imdbId": "tt0468569",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt0468569/img"
   },
   {
     "id": "tmdb-653346",
@@ -1137,8 +1255,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/653346"
+    "poster": "https://images.metahub.space/poster/medium/tt11389872/img",
+    "info": "https://www.themoviedb.org/movie/653346",
+    "imdbId": "tt11389872",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt11389872/img"
   },
   {
     "id": "tmdb-940721",
@@ -1156,8 +1276,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/940721"
+    "poster": "https://images.metahub.space/poster/medium/tt23289160/img",
+    "info": "https://www.themoviedb.org/movie/940721",
+    "imdbId": "tt23289160",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt23289160/img"
   },
   {
     "id": "tmdb-823464",
@@ -1175,8 +1297,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/823464"
+    "poster": "https://images.metahub.space/poster/medium/tt14539740/img",
+    "info": "https://www.themoviedb.org/movie/823464",
+    "imdbId": "tt14539740",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt14539740/img"
   },
   {
     "id": "tmdb-385687",
@@ -1194,8 +1318,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/385687"
+    "poster": "https://images.metahub.space/poster/medium/tt5433140/img",
+    "info": "https://www.themoviedb.org/movie/385687",
+    "imdbId": "tt5433140",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt5433140/img"
   },
   {
     "id": "tmdb-872585",
@@ -1214,7 +1340,9 @@ export default [
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
     "poster": "https://image.tmdb.org/t/p/w500/ptpr0kGAckfQkJeJIt8st5dglvd.jpg",
-    "info": "https://www.themoviedb.org/movie/872585"
+    "info": "https://www.themoviedb.org/movie/872585",
+    "imdbId": "tt15398776",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt15398776/img"
   },
   {
     "id": "tmdb-346698",
@@ -1232,8 +1360,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/346698"
+    "poster": "https://images.metahub.space/poster/medium/tt1517268/img",
+    "info": "https://www.themoviedb.org/movie/346698",
+    "imdbId": "tt1517268",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt1517268/img"
   },
   {
     "id": "tmdb-466272",
@@ -1251,8 +1381,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/466272"
+    "poster": "https://images.metahub.space/poster/medium/tt7131622/img",
+    "info": "https://www.themoviedb.org/movie/466272",
+    "imdbId": "tt7131622",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt7131622/img"
   },
   {
     "id": "tmdb-546554",
@@ -1270,8 +1402,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/546554"
+    "poster": "https://images.metahub.space/poster/medium/tt8946378/img",
+    "info": "https://www.themoviedb.org/movie/546554",
+    "imdbId": "tt8946378",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt8946378/img"
   },
   {
     "id": "tmdb-661374",
@@ -1289,8 +1423,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/661374"
+    "poster": "https://images.metahub.space/poster/medium/tt11564570/img",
+    "info": "https://www.themoviedb.org/movie/661374",
+    "imdbId": "tt11564570",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt11564570/img"
   },
   {
     "id": "tmdb-496243",
@@ -1308,8 +1444,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/496243"
+    "poster": "https://images.metahub.space/poster/medium/tt6751668/img",
+    "info": "https://www.themoviedb.org/movie/496243",
+    "imdbId": "tt6751668",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt6751668/img"
   },
   {
     "id": "tmdb-475557",
@@ -1327,8 +1465,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/475557"
+    "poster": "https://images.metahub.space/poster/medium/tt7286456/img",
+    "info": "https://www.themoviedb.org/movie/475557",
+    "imdbId": "tt7286456",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt7286456/img"
   },
   {
     "id": "tmdb-359724",
@@ -1346,8 +1486,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/359724"
+    "poster": "https://images.metahub.space/poster/medium/tt1950186/img",
+    "info": "https://www.themoviedb.org/movie/359724",
+    "imdbId": "tt1950186",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt1950186/img"
   },
   {
     "id": "tmdb-1234821",
@@ -1365,8 +1507,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/1234821"
+    "poster": "https://images.metahub.space/poster/medium/tt31036941/img",
+    "info": "https://www.themoviedb.org/movie/1234821",
+    "imdbId": "tt31036941",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt31036941/img"
   },
   {
     "id": "tmdb-1061474",
@@ -1384,8 +1528,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/1061474"
+    "poster": "https://images.metahub.space/poster/medium/tt24484330/img",
+    "info": "https://www.themoviedb.org/movie/1061474",
+    "imdbId": "tt24484330",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt24484330/img"
   },
   {
     "id": "tmdb-1087192",
@@ -1403,8 +1549,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/1087192"
+    "poster": "https://images.metahub.space/poster/medium/tt26743210/img",
+    "info": "https://www.themoviedb.org/movie/1087192",
+    "imdbId": "tt26743210",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt26743210/img"
   },
   {
     "id": "tmdb-950387",
@@ -1422,8 +1570,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/950387"
+    "poster": "https://images.metahub.space/poster/medium/tt3566834/img",
+    "info": "https://www.themoviedb.org/movie/950387",
+    "imdbId": "tt3566834",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt3566834/img"
   },
   {
     "id": "tmdb-911430",
@@ -1441,8 +1591,10 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/911430"
+    "poster": "https://images.metahub.space/poster/medium/tt16311594/img",
+    "info": "https://www.themoviedb.org/movie/911430",
+    "imdbId": "tt16311594",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt16311594/img"
   },
   {
     "id": "tmdb-1035259",
@@ -1460,7 +1612,9 @@ export default [
     "trailer": "",
     "upcoming": false,
     "description": "Katalog yozuvi. To‘liq video va dublyaj mavjudligi tasdiqlanmagan.",
-    "poster": "",
-    "info": "https://www.themoviedb.org/movie/1035259"
+    "poster": "https://images.metahub.space/poster/medium/tt3402138/img",
+    "info": "https://www.themoviedb.org/movie/1035259",
+    "imdbId": "tt3402138",
+    "posterFallback": "https://images.metahub.space/poster/medium/tt3402138/img"
   }
 ];

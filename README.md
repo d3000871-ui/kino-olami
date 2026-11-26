@@ -58,3 +58,6 @@ MP4/WebM va rasmiy YouTube embed pleyeri sayt ichida ochiladi; tashqi tomosha tu
 
 ## Bosh sahifa barqarorligi
 Boshlang‘ich HTMLda 77 ta katalog kartochkasi bor; JS yoki API ishlamasa ham katalog nomlari ko‘rinadi. Interaktiv katalog muvaffaqiyatli render qilingandan so‘ng statik zaxira yashiriladi. Poster bo‘lmasa nomli kartochka ko‘rsatiladi; saqlangan noto‘g‘ri profil ma’lumotlari tekshiriladi. Oflayn holatda avtomatik boshqa bo‘limga o‘tmaydi. Bu katalog metadata, to‘liq tijoriy video fayllari emas.
+
+## Poster va reytinglar
+77 ta zamonaviy film uchun IMDb identifikatorlari asosida MetaHub poster manzili qo‘shilgan; mavjud TMDB posterlari saqlangan. IMDb reytinglari Cinemeta metadata servisidan ko‘rinayotgan kartochkalar bo‘yicha olinadi, qiymat bo‘lmasa — ko‘rsatiladi. Uchinchi tomon servisining ishlashi va tasvirlardan foydalanish huquqlari alohida tekshirilishi kerak. To‘liq filmlar qo‘shilmagan.
