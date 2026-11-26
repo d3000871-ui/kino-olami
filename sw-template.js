@@ -6,5 +6,5 @@ self.addEventListener('fetch',e=>{
  if(r.method!=='GET'||u.origin!==self.location.origin||u.pathname.startsWith('/api/')||u.pathname.startsWith('/__kino_offline__/'))return;
  if(r.mode==='navigate'&&u.pathname==='/admin.html'){return;}
  if(r.mode==='navigate'){e.respondWith((async()=>{try{const result=await fetch(r);if(result.ok)return result;}catch{}return (await caches.open(CACHE)).match('/index.html');})());return;}
- if(ASSETS.includes(u.pathname))e.respondWith((async()=>{const c=await caches.open(CACHE);return (await c.match(u.pathname))||fetch(r);})());
+ if(ASSETS.includes(u.pathname)||u.pathname.startsWith('/assets/'))e.respondWith((async()=>{const c=await caches.open(CACHE);try{const result=await fetch(r);if(result.ok)return result;}catch{}return (await c.match(u.pathname))||Response.error();})());
 });

@@ -55,3 +55,6 @@ MP4/WebM va rasmiy YouTube embed pleyeri sayt ichida ochiladi; tashqi tomosha tu
 
 ## Zamonaviy kinolar
 77 ta qo‘lda tanlangan film katalog yozuvi token bo‘lmasa ham ishlaydi. Qasoskorlar, Marvel va janr turkumlari, uch tilda nom bo‘yicha qidiruv, ayrim rasmiy treylerlar. TMDB tokeni ulanganda qo‘shimcha metadata olinadi. Bu tijoriy filmlarning to‘liq videolari yoki dublyajlari emas. Qasoskorlar Doomsday 2026 dekabriga rejalangan. To‘liq videolar uchun tarqatish huquqi bor manbani admin orqali qo‘shish kerak.
+
+## Bosh sahifa barqarorligi
+Boshlang‘ich HTMLda 77 ta katalog kartochkasi bor; JS yoki API ishlamasa ham katalog nomlari ko‘rinadi. Interaktiv katalog muvaffaqiyatli render qilingandan so‘ng statik zaxira yashiriladi. Poster bo‘lmasa nomli kartochka ko‘rsatiladi; saqlangan noto‘g‘ri profil ma’lumotlari tekshiriladi. Oflayn holatda avtomatik boshqa bo‘limga o‘tmaydi. Bu katalog metadata, to‘liq tijoriy video fayllari emas.
