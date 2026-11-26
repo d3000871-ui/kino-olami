@@ -52,3 +52,6 @@ Rasmiy UzbekFilmsHD/Uzbekkino va Mosfilm nashr havolalari, shuningdek Wikimedia 
 
 ## Sayt ichida tomosha qilish
 MP4/WebM va rasmiy YouTube embed pleyeri sayt ichida ochiladi; tashqi tomosha tugmalari olib tashlangan. Admin ruxsatli YouTube havolasini ham saqlashi mumkin. Agar nashriyot embedni bloklasa, xabar ko‘rsatiladi; bunday cheklov chetlab o‘tilmaydi. YouTube pleyerining o‘zidagi standart havolalar provayder boshqaruvida. Yuklab olish tugmasi mavjud ruxsatli video faylni oflayn omborga saqlaydi, YouTube uchun yuklab olish yo‘q.
+
+## Zamonaviy kinolar
+77 ta qo‘lda tanlangan film katalog yozuvi token bo‘lmasa ham ishlaydi. Qasoskorlar, Marvel va janr turkumlari, uch tilda nom bo‘yicha qidiruv, ayrim rasmiy treylerlar. TMDB tokeni ulanganda qo‘shimcha metadata olinadi. Bu tijoriy filmlarning to‘liq videolari yoki dublyajlari emas. Qasoskorlar Doomsday 2026 dekabriga rejalangan. To‘liq videolar uchun tarqatish huquqi bor manbani admin orqali qo‘shish kerak.
