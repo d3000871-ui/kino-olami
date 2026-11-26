@@ -24,3 +24,6 @@ Vercel CLI orqali vercel dev (environment sozlangan bo‘lishi kerak). Vite dev 
 
 ## Kengaytirilgan katalog
 TMDB_READ_TOKEN bilan kino va seriallar, yil, janr, qidiruv, reyting va sahifalash ishlaydi. API bir so‘rov filtri uchun 500 sahifagacha; yil va janr bilan chuqurroq qidiring. TMDB tavsiflari video emas. 11 qo‘shimcha Blender ochiq filmi Wikimedia Commons orqali havolalangan; individual litsenziya va kredit Manba sahifasida. Tashqi videolar Blobga ko‘chirilmagan, shuning uchun manba mavjudligiga bog‘liq. Faqat o‘zingiz Blobga yuklagan filmlar omborda turadi.
+
+## Oflayn tomosha (PWA)
+Vercel HTTPS saytiga birinchi marta internet bilan kiring. Ochiq/ruxsatli videoni ochib Oflayn saqlashni bosing; yakunlanganidan keyin Oflayn bo‘limidan internetsiz oching. Ilova shell service worker orqali, video Cache Storage orqali alohida saqlanadi; redeploy media keshini o‘chirmaydi. Tashqi video CORS ruxsat bermasa, faylni qonuniy yuklab olib Oflayn bo‘limida MP4/WebM import qiling. Brauzer doimiy xotira ruxsatini so‘raydi, lekin rad etilishi mumkin; brauzer ma’lumotlari o‘chirilsa, joy yetishmasa yoki boshqa qurilmada oflayn nusxalar mavjud bo‘lmasligi mumkin. Asl faylni alohida zaxiralang. iOS/Android/desktop brauzerlarida kodek va kvota farqlanadi. Internet yo‘q bo‘lsa yangi video yuklab bo‘lmaydi. 
