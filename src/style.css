@@ -8,3 +8,5 @@
 .audioVersions{margin:16px 0;padding:14px;border:1px solid #383b49;border-radius:10px}.audioVersions .actions{margin:8px 0;flex-wrap:wrap}.audioVersions small{color:var(--muted)}.subtitleTools select{margin:6px 0}
 
 .adminPage{max-width:800px;margin:auto;background:#171923;padding:28px;border:1px solid #30323f;border-radius:18px}.adminPage li{padding:9px;border-bottom:1px solid #30323f}.profileStats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}.profileStats div{background:#222532;border-radius:10px;padding:12px;display:grid;gap:5px}.profileStats b{font-size:24px}.profileStats span{font-size:12px;color:var(--muted)}
+
+.catalogHint{font-size:12px;color:var(--muted);margin:12px 0 18px}.extraDetails{margin-top:24px;padding:16px;border:1px solid #383b49;border-radius:12px}.extraDetails select{margin:8px 0}.adminPage #adminList li{display:flex;align-items:center;justify-content:space-between;gap:12px}.adminPage #adminSearch{display:block;width:100%;margin:12px 0}.adminPage #management{margin-top:16px}.filters select{max-width:100%}.filters{align-items:center}
