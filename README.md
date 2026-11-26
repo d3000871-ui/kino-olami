@@ -30,3 +30,6 @@ Vercel HTTPS saytiga birinchi marta internet bilan kiring. Ochiq/ruxsatli videon
 
 ## O‘zbekcha tarjima
 TMDB o‘zbekcha tavsif mavjud bo‘lsa qaytaradi, aks holda inglizcha tavsif olinadi. O‘zbekcha ovoz filtri haqiqiy audio tili metama’lumotiga asoslanadi; avtomatik dublyaj yo‘q. Admin qisqa SRT/VTT subtitr (12 KB gacha) qo‘sha oladi; tomoshabin 500 KB gacha subtitrni o‘z brauzerida qo‘sha oladi, oflayn ham ishlaydi. Subtitr va dublyaj uchun tarqatish huquqi kerak.
+
+## Uch tilda video tarjimalari
+Kino qo‘shish panelida bir film uchun bir xil tarjima guruhi kodidan foydalanib O‘zbekcha, Ruscha va Inglizcha video fayllarini alohida yuklang. Mavjud kinoning guruh kodini takliflar ro‘yxatidan tanlash mumkin. Katalogda guruh birlashtiriladi; pleyer mavjud ovoz variantlarini ko‘rsatadi. Har bir variant o‘z fayli bilan alohida oflayn saqlanadi. Tomoshabin uch tilda shaxsiy SRT/VTT subtitr qo‘sha oladi. Sayt audio tarjima/dublyajni avtomatik yaratmaydi; TMDB original tilni beradi, video taqdim etmaydi. Tarjima videolarini tarqatish huquqi bo‘lishi shart.

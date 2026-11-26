@@ -6,7 +6,7 @@ export default async function handler(req,res){
  const q=String(req.query?.q||'').trim().slice(0,100),media=req.query?.media==='tv'?'tv':'movie',genre=String(req.query?.genre||''),year=String(req.query?.year||''),sort=req.query?.sort;
  const page=Math.max(1,Math.min(500,parseInt(req.query?.page,10)||1));
  const params=new URLSearchParams({language:'uz-UZ',include_adult:'false',page:String(page)});
- if(!q&&req.query?.audio==='uz')params.set('with_original_language','uz');
+ if(!q&&['uz','ru','en'].includes(req.query?.audio))params.set('with_original_language',req.query.audio);
  const validYear=/^\d{4}$/.test(year);
  if(q){params.set('query',q);if(validYear)params.set(media==='movie'?'primary_release_year':'first_air_date_year',year);}
  else{

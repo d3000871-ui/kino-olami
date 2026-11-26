@@ -1,7 +1,7 @@
 const CACHE='kino-offline-films-v1', PREFIX='/__kino_offline__/';
 const key=id=>new Request(new URL(PREFIX+encodeURIComponent(id),location.origin));
 const cache=()=>caches.open(CACHE);
-const pack=m=>encodeURIComponent(JSON.stringify({id:m.id,title:m.title,year:m.year||'',genre:m.genre||'Boshqa',description:m.description||'',rating:m.rating??null,language:m.language||'',source:m.source||'local',credit:m.credit||'',subtitleUz:m.subtitleUz||'',info:m.info||'',video:m.video||'',poster:'',media:m.media||'movie'}));
+const pack=m=>encodeURIComponent(JSON.stringify({id:m.id,groupId:m.groupId||'',title:m.title,year:m.year||'',genre:m.genre||'Boshqa',description:m.description||'',rating:m.rating??null,language:m.language||'',source:m.source||'local',credit:m.credit||'',subtitleUz:m.subtitleUz||'',info:m.info||'',video:m.video||'',poster:'',media:m.media||'movie'}));
 export async function savedList(){
  const c=await cache(),out=[];
  for(const k of await c.keys()){const r=await c.match(k);try{const m=JSON.parse(decodeURIComponent(r.headers.get('x-kino-meta')));out.push({...m,offline:true,bytes:Number(r.headers.get('x-kino-size')||0)});}catch{}}
